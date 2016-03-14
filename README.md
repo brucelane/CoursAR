@@ -1,2 +1,5 @@
 # CoursAR
-Licence DAM
+Travail en équipe : 
+  - JUANEDA Pierre
+  - LOUVET Florian
+  - SARDA Victor
