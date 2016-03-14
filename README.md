@@ -1,4 +1,6 @@
 # CoursAR
 Licence DAM
 
-Pull Request Enzo BIANCHI
+Equipe : 
+Enzo BIANCHI
+Tristan FERREIRA
