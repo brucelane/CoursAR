@@ -161,16 +161,7 @@ ionic serve
 ionic serve --lab (pour voir ios et android)
 </code></pre>							
 					</section>	
-					<section>
-					<h2>Ajout plateforme Android</h2>
 					
-<pre><code data-trim contenteditable>
-ionic platform add android
-ionic build android
-ionic run android
-</code></pre>	
-<p>Remplacer android par ios si plateforme iOS</p>						
-					</section>	
 					<section>
 					<h2>Ajout sur Play store</h2>
 					
@@ -194,6 +185,10 @@ zipalign -v 4 coursar-unaligned.apk coursar20160314.apk
 					<section>
 					<h2>Création du projet</h2>	
 <pre><code data-trim contenteditable>
+ionic start NomApplication tabs
+ou
+ionic start NomApplication sidemenu
+ou
 ionic start NomApplication https://github.com/nomutilisateur/CoursAR				
 </code></pre>					
 Modifier id, version, etc dans config.xml
@@ -212,6 +207,18 @@ id="fr.domaine.coursar"
 						<img width="941" height="515" src="media/vstpl.jpg">
 					</section>	
 					<section>
+					<h2>Deploiement sur device</h2>	
+						<p>
+							Tester sur le device Android/iOs<br />
+						</p>	
+						<pre><code data-trim contenteditable>
+ionic platform add android
+ionic build android
+ionic run android
+</code></pre>	
+<p>Remplacer android par ios si plateforme iOS</p>		
+					</section>
+					<section>
 					<h2>Support de la camera</h2>	
 						<p>
 							Installer le plugin Cordova <a href="https://cordova.apache.org/plugins/">camera et media-capture</a> avec l'option --save pour mettre à jour package.json.<br />
@@ -223,7 +230,7 @@ id="fr.domaine.coursar"
 					</section>	
 					<section>
 					<h2>Ajout ThreeJS</h2>	
-									
+							script src="lib/three/three.js"		
 					</section>	
 					<section>
 					<h2>Support du gyroscope</h2>	
