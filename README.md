@@ -1,2 +1,0 @@
-# CoursAR
-Licence DAM

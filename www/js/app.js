@@ -8,6 +8,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
+
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
     if (window.cordova && window.cordova.plugins.Keyboard) {
@@ -45,7 +46,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: '/browse',
       views: {
         'menuContent': {
-          templateUrl: 'templates/browse.html'
+          templateUrl: 'templates/browse.html',
+          controller: 'BrowseCtrl'
         }
       }
     })
