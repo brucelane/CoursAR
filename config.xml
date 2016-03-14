@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.coursar877761" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="fr.alinfos.RA" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>CoursAR</name>
   <description>
-        An Ionic Framework and Cordova project.
+        realite augmenter.
     </description>
-  <author email="you@example.com" href="http://example.com.com/">
-      Your Name Here
+  <author email="contact@alinfos.fr" href="http://alinfos.fr">
+      BOULAJINE
     </author>
   <content src="index.html"/>
   <access origin="*"/>
