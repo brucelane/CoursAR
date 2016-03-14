@@ -122,6 +122,7 @@ git clone https://github.com/<i>votrenom</i>/CoursAR.git
 						<h3>A faire une fois:</h3>					
 						<p>Configurer le chemin du repo parent (brucelane/CoursAR) pour les pull requests: </p>
 <pre><code data-trim contenteditable>
+cd CoursAR
 git remote add upstream git://github.com/brucelane/CoursAR.git
 </code></pre>							
 					</section>	
@@ -145,12 +146,19 @@ git push</code></pre>
 				
 					<section>
 					<h2>Installation pour le développement</h2>
-					installer  <a href="https://nodejs.org/">node.js</a> puis:
-<pre><code data-trim contenteditable>
-npm install -g cordova ionic
+					<p>installer  <a href="https://nodejs.org/">node.js</a> puis<br/>
+					Sous powershell ou terminal on crée un projet de test<br/> (hors repository)
+					</p>
+<pre><code data-trim contenteditable> 
+node -v
+mkdir test
+cd test
+npm install -g cordova 
+npm install -g ionic
 ionic start NomDuProjet sidemenu (choix du modèle: sidemenu ou tabs ou blank)
 cd NomDuProjet
 ionic serve
+ionic serve --lab (pour voir ios et android)
 </code></pre>							
 					</section>	
 					<section>
