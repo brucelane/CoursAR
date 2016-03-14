@@ -1,0 +1,16 @@
+.overlapcanvas{
+	width:640; 
+	height:480;
+	position: absolute;
+    float: left;
+	top: 0px;
+	left: 0px;
+}
+#canvas2d{
+	position: absolute;
+	z-index: 0;
+}
+#canvas3d{
+	position: absolute;
+	z-index: 1;
+}
