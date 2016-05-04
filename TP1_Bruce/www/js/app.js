@@ -36,8 +36,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: '/search',
     views: {
       'menuContent': {
-        templateUrl: 'templates/ImageProcessingArUco.html',
-        controller:'controller_cam'
+        templateUrl: 'templates/search.html',
+        controller:'controllerCam'
       }
     }
   })
